@@ -1,0 +1,54 @@
+{
+    "manifest_version": 2,
+    "name": "__MSG_name__",
+    "version": "1.0.0",
+    "minimum_chrome_version": "48",
+
+    "default_locale": "en",
+    "description": "__MSG_description__",
+    "icons": {
+      "16": "./img/icons/icon_16.png",
+      "48": "./img/icons/icon_48.png",
+      "128": "./img/icons/icon_128.png"
+    },
+    
+    "background": {
+        "scripts": [
+            "./main.js"
+        ],
+        "persistent": false
+    },
+    
+    "content_scripts": [
+        {
+            "matches": ["<all_urls>"],
+            "js": [
+                "./content.js"
+            ]
+        }
+    ],
+    
+    "externally_connectable": {
+        "ids": [
+            "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+        ],
+        "matches": [
+            "*://*.example.com/*"
+        ],
+        "accepts_tls_channel_id": false
+    },
+    
+    "permissions": [
+        "http://your.website/*",
+        "tabs",
+        "activeTab",
+        "contextMenus",
+        "storage"
+    ],
+    
+    "web_accessible_resources": [
+        "./content-page/*"
+    ],
+    
+    "homepage_url": "http://your.website/extensions/"
+}

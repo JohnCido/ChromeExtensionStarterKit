@@ -1,0 +1,4 @@
+/code/node_modules/*
+/code/typings/*
+/code/public/*
+/code/build/*
