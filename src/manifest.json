@@ -2,7 +2,7 @@
     "manifest_version": 2,
     "name": "__MSG_name__",
     "version": "1.0.0",
-    "minimum_chrome_version": "48",
+    "minimum_chrome_version": "40",
 
     "default_locale": "en",
     "description": "__MSG_description__",
@@ -28,26 +28,9 @@
         }
     ],
     
-    "externally_connectable": {
-        "ids": [
-            "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
-        ],
-        "matches": [
-            "*://*.example.com/*"
-        ],
-        "accepts_tls_channel_id": false
-    },
-    
     "permissions": [
         "http://your.website/*",
-        "tabs",
-        "activeTab",
-        "contextMenus",
         "storage"
-    ],
-    
-    "web_accessible_resources": [
-        "./content-page/*"
     ],
     
     "homepage_url": "http://your.website/extensions/"
