@@ -1,4 +1,3 @@
-/// <reference path="typings/index.d.ts" />
 var fs = require('fs');
 var webpack = require('webpack');
 var path = require('path');
@@ -9,8 +8,8 @@ var ExtractTextPlugin = require('extract-text-webpack-plugin');
 module.exports = {
     devtool: 'source-map',
     entry: {
-        main: './src/js/main.ts',
-        content: './src/js/content-page/content.ts'
+        main: './src/js/main.js',
+        content: './src/js/content-page/content.js'
     },
     output: {
         path: './build',
