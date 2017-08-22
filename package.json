@@ -4,10 +4,12 @@
   "description": "",
   "main": "",
   "scripts": {
+    "init": "sudo npm i -g webpack npm-check-updates",
+    "update": "ncu -u",
     "start": "cross-env NODE_ENV=develop webpack -w",
     "production": "cross-env NODE_ENV=production webpack",
     "archive": "node archive.js",
-    "distributeMac": "npm run production && cd production; zip -r -X upload.zip * && npm run archive"
+    "distributeUnix": "npm run production && cd production; zip -r -X upload.zip * && npm run archive"
   },
   "keywords": [
     "chrome",
