@@ -9,8 +9,9 @@ This is a quick-start kit to help you begin your journey of developing Chrome ex
 ### Design
 
 - [x] design.sketch
-- [ ] design.ai
-- [ ] design.figma
+- [x] design.ai
+- [x] design.figma
+- [x] design.xd
 
 ### Develop
 
