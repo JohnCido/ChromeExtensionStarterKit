@@ -20,10 +20,10 @@ This is a quick-start kit to help you begin your journey of developing Chrome ex
 4. Run `npm start` , webpack will began watching your files changes and output to `develop` directory.
 5. Drag `develop` folder and drop it in [chrome://extensions/](chrome://extensions/).
 
-### Distribute
+### Release
 
 - You can run `npm run production` to get a final version of your extension in `production` directory.
-- If you're using macOS or Linux, simply run `npm run distributeUnix` and you'll get all content in `production` directory zipped as upload.zip. It'll also create a `extensionVersion.zip` in `archives` directory.
+- If you're on macOS, Linux or Unix, simply run `npm run releaseUnix` and you'll get all content in `production` directory zipped as upload.zip. It'll also create a `extensionVersion.zip` in `archives` directory.
 
 
 
