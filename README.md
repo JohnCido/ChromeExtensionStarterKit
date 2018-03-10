@@ -1,6 +1,6 @@
 # Chrome Extension Starter Kit
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/JohnCido/ChromeExtensionStarterKit.svg)](https://greenkeeper.io/)
+[![Build Status](https://travis-ci.org/JohnCido/ChromeExtensionStarterKit.svg?branch=master)](https://travis-ci.org/JohnCido/ChromeExtensionStarterKit) [![Greenkeeper badge](https://badges.greenkeeper.io/JohnCido/ChromeExtensionStarterKit.svg)](https://greenkeeper.io/)
 
 This is a quick-start kit to help you begin your journey of developing Chrome extensions.
 
