@@ -4,12 +4,14 @@
   "description": "",
   "main": "Your awesome extension!",
   "scripts": {
-    "init": "sudo npm i -g webpack npm-check-updates",
+    "init": "sudo npm i -g webpack npm-check-updates && npm i npm-license-crawler -g",
     "update": "ncu -u",
     "start": "cross-env NODE_ENV=development webpack -w",
     "production": "rm -rf production && cross-env NODE_ENV=production webpack",
     "archive": "node archive.js",
-    "releaseUnix": "npm run production && cd production; zip -r -X upload.zip * && npm run archive"
+    "releaseUnix": "npm run production && cd production; zip -r -X upload.zip * && npm run archive",
+    "licensesJSON": "npm-license-crawler --onlyDirectDependencies --omitVersion --json ./licenses.json",
+    "licensesCSV": "npm-license-crawler --onlyDirectDependencies --omitVersion --csv ./licenses.csv"
   },
   "keywords": [
     "chrome",

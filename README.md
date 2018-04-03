@@ -29,12 +29,16 @@ This is a quick-start kit to help you begin your journey of developing Chrome ex
 - If you're on macOS, Linux or Unix, simply run `npm run releaseUnix` and you'll get all content in `production` directory zipped as upload.zip. It'll also create a `extensionVersion.zip` in `archives` directory.
 
 
+### Legal
+
+To generate a code-friendly licenses list of direct dependecies of the project, simply run `npm run licensesJSON` or `npm run licensesCSV`. Now it's much easier to have a list of licenses in the UI.
+
 
 ## License
 
 MIT
 
-Copyright (c) 2017 John Cido
+Copyright (c) 2018 John Cido
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
